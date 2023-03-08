@@ -1,0 +1,22 @@
+set search_path to progetto1;
+
+INSERT INTO Correntista VALUES ('a@a.com', 'a', 10);
+INSERT INTO Correntista VALUES ('b@b.com', 'b', 30);
+INSERT INTO Correntista VALUES ('c@c.com', 'c', 13);
+INSERT INTO Correntista VALUES ('d@d.com', 'd', 0);
+INSERT INTO Correntista VALUES ('e@e.com', 'e', 90);
+INSERT INTO Categoria VALUES (000001, 'Casa', 'Arredamento');
+INSERT INTO Categoria VALUES (000002, 'Sport', 'Basket');
+INSERT INTO Categoria VALUES (000003, 'Matematica', 'Funzioni');
+INSERT INTO Categoria VALUES (000004, 'Informatica', 'C++');
+INSERT INTO Categoria VALUES (000005, 'Informatica', 'Java');
+INSERT INTO Inserzione VALUES (000001, 'Medio', 'Casa', 'O', 'a@a.com', 000001);
+INSERT INTO Inserzione VALUES (000002, 'Basso', 'Sport', 'R', 'b@b.com', 000002);
+INSERT INTO Inserzione VALUES (000003, 'Alto', 'Matematica', 'O', 'c@c.com', 000003);
+INSERT INTO Inserzione VALUES (000004, 'Avanzato', 'Informatica', 'O', 'd@d.com', 000004);
+INSERT INTO Inserzione VALUES (000005, 'Medio', 'Informatica', 'R', 'e@e.com', 000005);
+INSERT INTO Prestazione VALUES (000001, 000001, 'a@a.com', '12-05-2020', 'Genova', 8);
+INSERT INTO Prestazione VALUES (000002, 000002, 'b@b.com', '12-05-2020', 'Genova', 6);
+INSERT INTO Prestazione VALUES (000003, 000003, 'c@c.com', '12-05-2020', 'Garessio', 7);
+INSERT INTO Prestazione VALUES (000004, 000004, 'd@d.com', '12-05-2020', 'Ceranesi', 3);
+INSERT INTO Prestazione VALUES (000005, 000005, 'e@e.com', '12-05-2020', 'Chiavari', 10);
